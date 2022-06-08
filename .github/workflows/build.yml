@@ -12,12 +12,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-#######################################
+      
       - name: Run
         run: make
 
       - name: Test
         run: make test
+        
+      - name: Run out/example
+        run: make out/example
       
       - name: Clean
         run: make clean
