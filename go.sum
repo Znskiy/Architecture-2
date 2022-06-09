@@ -1,2 +1,4 @@
+github.com/Da6hkin/architecture-2 v0.0.0-20220609193404-93db2bdc8098 h1:WQleTAKxqGX42H5MWMZ5zBiJOn4c1FoEb6YGrRYwbL4=
+github.com/Da6hkin/architecture-2 v0.0.0-20220609193404-93db2bdc8098/go.mod h1:UzZpdvjTvZtahM+UNEebluoyhb8/px63yEmLAYTuvqI=
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405 h1:yhCVgyC4o1eVCa2tZl7eS0r+SDo693bJlVdllGtEeKM=
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
