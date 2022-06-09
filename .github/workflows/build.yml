@@ -12,9 +12,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      
-      - name: Settings
-        run: go mod tidy github.com/Da6hkin/architecture-2
         
       - name: Run
         run: make
