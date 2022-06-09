@@ -1,5 +1,5 @@
 // TODO: Rename to your own module.
-module github.com/Da6hkin/architecture-2
+module github.com/Da6hkin/Architecture-2
 
 go 1.17
 
