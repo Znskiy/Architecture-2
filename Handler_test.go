@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	lab2 "github.com/Da6hkin/architecture-2"
+	lab2 "github.com/Da6hkin/Architecture-2"
 )
 
 var (
