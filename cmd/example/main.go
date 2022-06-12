@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	lab2 "github.com/Da6hkin/architecture-2"
+	lab2 "github.com/Da6hkin/Architecture-2"
 )
 
 var (
@@ -58,6 +58,6 @@ func main() {
 		fmt.Fprintln(os.Stderr, err)
 		os.Exit(1)
 	}
-	res, _ := lab2.prefixToInfix("+ 2 2")
+	res, _ := lab2.PrefixToInfix("+ 2 2")
 	fmt.Println(res)
 }
