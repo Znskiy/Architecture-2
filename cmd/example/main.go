@@ -58,6 +58,6 @@ func main() {
 		fmt.Fprintln(os.Stderr, err)
 		os.Exit(1)
 	}
-	res, _ := lab2.prefixToInfix("+ 2 2")
+	res, _ := lab2.PrefixToInfix("+ 2 2")
 	fmt.Println(res)
 }
