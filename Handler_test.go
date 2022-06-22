@@ -39,7 +39,7 @@ func TestConsoleRandomChars(t *testing.T) {
 	write.Close()
 	os.Stdout = stdout
 	if assert.NotNil(t, err) {
-		assert.Equal(t, "Convertation Error", err.Error())
+		assert.Equal(t, "error in input", err.Error())
 	} else {
 		t.Errorf("Incorrect result")
 	}
@@ -57,7 +57,7 @@ func TestConsoleOnlyNumbers(t *testing.T) {
 	write.Close()
 	os.Stdout = stdout
 	if assert.NotNil(t, err) {
-		assert.Equal(t, "Convertation Error", err.Error())
+		assert.Equal(t, "error in input", err.Error())
 	} else {
 		t.Errorf("Incorrect result")
 	}
