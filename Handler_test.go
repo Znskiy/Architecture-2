@@ -8,24 +8,6 @@ import (
 	"testing"
 )
 
-func TestConsoleCorrectInput(t *testing.T) {
-	stdout := os.Stdout
-	read, write, _ := os.Pipe()
-	os.Stdout = write
-	handler := ComputeHandler{
-		Input:  bytes.NewBufferString("2 2 +"),
-		Output: write,
-	}
-	err := handler.Compute()
-	write.Close()
-	out, _ := ioutil.ReadAll(read)
-	os.Stdout = stdout
-	if assert.Nil(t, err) {
-		assert.Equal(t, "2 + 2\n", string(out[:]))
-	} else {
-		t.Errorf("Incorrect result")
-	}
-}
 
 func TestConsoleRandomChars(t *testing.T) {
 	stdout := os.Stdout
