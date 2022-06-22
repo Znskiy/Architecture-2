@@ -2,7 +2,7 @@ package lab2
 
 import (
 	"bytes"
-	"github.com/stretchr/testify"
+	"github.com/stretchr/testify/assert"
 	"io/ioutil"
 	"os"
 	"testing"
